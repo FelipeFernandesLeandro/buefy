@@ -42,6 +42,13 @@ export default [
             {
                 name: '<code>editable</code>',
                 description: 'Editable input',
+                type: 'String',
+                values: 'mdi, fa, fas, far, fab, fad, fal',
+                default: '<code>mdi</code>'
+            },
+            {
+                name: '<code>icon-pack</code>',
+                description: 'Icon pack to use',
                 type: 'Boolean',
                 values: '—',
                 default: '<code>true</code>'
